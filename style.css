@@ -83,3 +83,33 @@ select{
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+@media screen and (min-width: 600px){
+    h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .hero{
+        padding: 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .row{
+        flex-direction: flex;
+    }
+    select{
+        width: 50%;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .icon-btn{
+        padding: 12px 20px;
+    }
+}
+@media screen and(min-width: 992px){
+      h1{
+        font-size: 4.5rem;
+      }
+}
+
