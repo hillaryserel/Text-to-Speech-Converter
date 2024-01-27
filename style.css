@@ -83,6 +83,7 @@ select{
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+/*Media queries for responsiveness */
 @media screen and (min-width: 600px){
     h1{
         font-size: 2.5rem;
