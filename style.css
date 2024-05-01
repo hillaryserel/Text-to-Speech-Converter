@@ -13,9 +13,10 @@
     justify-content: center;
     flex-direction: column;
     color: #fff;
+    padding: 20px;
 }
 .hero h1{
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
@@ -25,8 +26,8 @@
 }
 /*textarea properties*/
 textarea{
-    width: 600px;
-    height: 250px;
+    width: 100%;
+    height: 200px;
     background: #403d84;
     color: #fff;
     font-size: 15px;
@@ -42,9 +43,9 @@ textarea::placeholder{
     font-size: 16px;
 }
 .row{
-    width: 600px;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: wrap;
     gap: 20px;
 }
 /*buttton properties*/ 
@@ -59,11 +60,11 @@ button{
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-right: 16px;
+    margin-bottom: 20px;
 }
 /*button icon properties*/
 .icon-btn{
-    width: 150px;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
 }
@@ -77,46 +78,42 @@ select{
     outline: 0;
     border: 0;
     border-radius: 35px;
-    background-image: url(img\dropdown.png);
     background-repeat: no-repeat;
     background-size: 15px;
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
+    width: 100%;
 }
+
 /*Media queries for responsiveness */
-@media screen and (min-width: 600px){
-    h1{
-        font-size: 2.5rem;
-    }
-    button{
-        font-size: 0.5rem;
-    }
-}
-@media screen and (min-width: 768px){
-    .hero{
+@media screen and (min-width: 768px) {
+    .hero {
         padding: 40px;
     }
-    h1{
+    .hero h1 {
         font-size: 3rem;
     }
-    button{
-        font-size: 0.9rem;
+    textarea {
+        height: 250px; 
     }
-    .row{
-        flex-direction: flex;
+    button {
+        margin-bottom: 30px; 
     }
-    select{
-        width: 50%;
+    .row {
+        flex-wrap: nowrap; 
+    }
+    select {
+        width: auto; 
         margin-bottom: 0;
         margin-right: 10px;
     }
-    .icon-btn{
+    .icon-btn {
         padding: 12px 20px;
     }
 }
-@media screen and(min-width: 992px){
-      h1{
-        font-size: 4.5rem;
-      }
-}
 
+@media screen and (min-width: 992px) {
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+}
