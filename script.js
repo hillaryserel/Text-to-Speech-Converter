@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 let speech = new SpeechSynthesisUtterance();
 
 //Array to store available voices
@@ -27,4 +28,5 @@ document.querySelector(".icon-btn").addEventListener("click", () => {
     speech.text = document.querySelector("textarea").value;
     //Use speechSynthesis to speak the provided text
     speechSynthesis.speak(speech);
+});
 });
