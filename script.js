@@ -22,7 +22,7 @@ voiceSelect.addEventListener("change", () =>{
 });
 
 //Event listener for when the user clicks the button
-document.querySelector("button").addEventListener("click", () => {
+document.querySelector(".icon-btn").addEventListener("click", () => {
     //Set the text of the SpeechSynthesisUtterance to the content of the <textarea>
     speech.text = document.querySelector("textarea").value;
     //Use speechSynthesis to speak the provided text
