@@ -64,9 +64,15 @@ button{
 }
 /*button icon properties*/
 .icon-btn{
-    width: 100%;
-    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;;
 }
 /*select properties*/ 
 select{
