@@ -60,8 +60,9 @@ button{
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
+
 /*button icon properties*/
 .icon-btn{
     display: inline-flex;
