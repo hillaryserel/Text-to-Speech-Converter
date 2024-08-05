@@ -124,3 +124,10 @@ select{
         font-size: 4.5rem;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: linear-gradient(45deg, #010758, #490d61);
+    color: white;
+}
