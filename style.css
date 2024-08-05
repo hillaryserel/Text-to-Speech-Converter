@@ -84,7 +84,7 @@ select{
     padding: 0 20px;
     outline: 0;
     border: 0;
-    border-radius: 35px;
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: 15px;
     background-position-x: calc(100% - 20px);
